@@ -15,5 +15,6 @@ def num_increase(start, end):
     if start < end:
         return num_increase(start+1, end)
 
+#Call the functions
 num_decrease(10)  
 num_increase(0, 10)
